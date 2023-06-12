@@ -316,10 +316,7 @@ class  Calculator():
     def hide_menu_frames(self):
         my_frame.pack_forget()
         scientific_frame.pack_forget()
-        # for widget in my_frame.winfo_children():
-        #     widget.destroy()
-        # for widget in scientific_frame.winfo_children():
-        #     widget.destroy()
+        
     def standard(self):
         self.hide_menu_frames()
         my_frame.pack(fill=BOTH,expand=1)

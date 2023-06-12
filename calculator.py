@@ -323,11 +323,6 @@ class  Calculator():
     def standard(self):
         self.hide_menu_frames()
         my_frame.pack(fill=BOTH,expand=1)
-        # my_label = Label(my_frame,text='0',font=('Times', 15, 'bold'),fg="#94a3b8", justify='right')
-        # my_label.grid(row=0,column=0)
-        # my_label_result = Entry(my_frame,  font=('Times', 20, 'bold'),width=23,bd=0,justify=RIGHT,bg="#f1f5f0",relief=SUNKEN)
-        # my_label_result.grid(row=1, column=0,columnspan=4,pady=20)
-        # my_label_result.insert(0,'0.0')
         list_of_btn = []
         for calc_key_data  in self.calc_dic:
             btn = Button(my_frame,text=calc_key_data['text'],width=5,height=2,bd = 2,command=calc_key_data['command'],relief=GROOVE,bg=calc_key_data['bg'], font=('Times', 20, 'bold'))

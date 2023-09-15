@@ -16,3 +16,5 @@
 <p align="center">
    <img width="240" height="340"src="img/scientific.png">
 </p>
+## Author
+* **Afsaneh Shamsaddini**
